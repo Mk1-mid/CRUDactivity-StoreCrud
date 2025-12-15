@@ -1,0 +1,166 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding-top: 134px;
+  background: #F2F0F1;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.top-banner {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 38px;
+  background: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  z-index: 1000;
+}
+
+.top-banner strong {
+  margin-left: 4px;
+  text-decoration: underline;
+}
+
+.navbar {
+  position: fixed;
+  top: 38px;
+  width: 100%;
+  height: 96px;
+  padding: 0 80px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  background: #fff;
+  z-index: 999;
+}
+
+.logo {
+  font-family: 'Lilita One', cursive;
+  font-size: 33.45px;
+}
+
+.links {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  margin: 0 auto 0 0;
+  padding: 0;
+}
+
+.search {
+  width: 420px;
+  height: 44px;
+  padding: 0 20px;
+  border-radius: 22px;
+  border: 1px solid #e5e5e5;
+  background: #F0F0F0;
+}
+
+.cart-icon {
+  font-size: 24px;
+}
+
+.hero {
+  max-width: 1440px;
+  height: 663px;
+  margin: 0 auto;
+  padding: 0 80px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-text {
+  flex: 1;
+  max-width: 580px;
+}
+
+.hero-text h1 {
+  font-family: 'Lilita One', cursive;
+  font-size: 64px;
+  line-height: 1.1;
+  margin: 0 0 32px;
+}
+
+.hero-text p {
+  margin: 0 0 32px;
+  color: #0009;
+  line-height: 1.6;
+}
+
+.shop-now-btn {
+  padding: 16px 54px;
+  border: none;
+  border-radius: 62px;
+  background: #000;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 48px;
+}
+
+.stats {
+  display: flex;
+  gap: 32px;
+}
+
+.stat-item h3 {
+  margin: 0 0 8px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.stat-item p {
+  margin: 0;
+  color: #0009;
+}
+
+.hero-image {
+  
+  height: 100%;
+  margin: 0;
+}
+
+.hero-image img {
+  display: flex ;  
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-image .star-1 {
+  position: absolute;
+  top: 200px;
+  left: 1250px;
+  width: 104px;
+  height: 104px;
+} 
+.hero-image .star-2 {
+  position: absolute;
+  top: 360px;
+  left: 900px;
+  width: 56px;
+  height: 56px;
+}
+
+.brands {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 44px 80px;
+  background: #000;
+  display: flex;
+  justify-content: space-around;
+}
+
+.brand-logo {
+  font-size: 33px;
+  font-weight: 700;
+  color: #fff;
+}
