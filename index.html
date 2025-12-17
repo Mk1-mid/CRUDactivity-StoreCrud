@@ -1,127 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CRUD.STORE - Find Your Style</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <nav class="top-banner">
-        <p>Sign up and get 20% off to your first order. <strong>Sign Up Now</strong></p>
-    </nav>
-    
-    <header>
-        <span class="logo">CRUD.STORE</span>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CRUD.STORE - Find Your Style</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="top-banner">
+            <p>Sign up and get 20% off to your first order. <strong>Sign Up Now</strong></p>
+        </nav>
 
-        <ul class="links">
-            <li>Shop</li>
-            <li>On Sale</li>
-            <li>New Arrivals</li>
-            <li>Brands</li>
-        </ul>
+        <header>
+            <span class="logo">CRUD.STORE</span>
+            <ul class="links">
+                <li>Shop</li>
+                <li>On Sale</li>
+                <li>New Arrivals</li>
+                <li>Brands</li>
+            </ul>
+            <input class="search" placeholder="🔎 Search for products…" />
+            <span class="cart-icon">🛒</span>
+        </header>
 
-        <input class="search" placeholder="🔎 Search for products…" />
-
-        <span class="cart-icon">🛒</span>
-    </header>
-
-    <section class="hero">
-        <div class="hero-text">
-            <h1>FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
-            <p>Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
-            <button class="shop-now-btn">Shop Now</button>
-            
-            <div class="stats">
-                <div class="stat-item">
-                    <h3>200+</h3>
-                    <p>International Brands</p>
-                </div>
-                <div class="stat-item">
-                    <h3>2,000+</h3>
-                    <p>High-Quality Products</p>
-                </div>
-                <div class="stat-item">
-                    <h3>30,000+</h3>
-                    <p>Happy Customers</p>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
+                <p>Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
+                <button class="shop-now-btn">Shop Now</button>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>200+</h3>
+                        <p>International Brands</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>2,000+</h3>
+                        <p>High-Quality Products</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>30,000+</h3>
+                        <p>Happy Customers</p>
+                    </div>
                 </div>
             </div>
-        </div>
+            <figure class="hero-image">
+                <img class="star-1" src="assets/star.png" alt="Star decoration" />
+                <img class="star-2" src="assets/star.png" alt="Star decoration" />
+            </figure>
+        </section>
 
-        <figure class="hero-image">
+        <section class="brands">
+            <div class="brand-logo"><img src="assets/logo/Vector.png" alt="Versace"></div>
+            <div class="brand-logo"><img src="assets/logo/zara-logo-1 1.png" alt="Zara"></div>
+            <div class="brand-logo"><img src="assets/logo/gucci-logo-1 1.png" alt="Gucci"></div>
+            <div class="brand-logo"><img src="assets/logo/prada-logo-1 1.png" alt="Prada"></div>
+            <div class="brand-logo"><img src="assets/logo/Group.png" alt="Calvin Klein"></div>
+        </section>
 
-            <img class="star-1" src="assets/star.png" alt="Couple wearing casual fashion clothes" />
-            <img class="star-2" src="assets/star.png" alt="Couple wearing casual fashion clothes" />
-        </figure>
-    </section>
-
-    <section class="brands">
-        <div class="brand-logo"><img src="assets/logo/Vector.png"></div>
-        <div class="brand-logo"><img src="assets/logo/zara-logo-1 1.png"></div>
-        <div class="brand-logo"><img src="assets/logo/gucci-logo-1 1.png"></div>
-        <div class="brand-logo"><img src="assets/logo/prada-logo-1 1.png"></div>
-        <div class="brand-logo"><img src="assets/logo/Group.png"></div>
-    </section>
-    <section class="products">
-        <h2>NEW ARRIVALS</h2>
+        <section class="products">
+            <h2>NEW ARRIVALS</h2>
             <div class="product-list">
-            <div class="product-item">
-                <img src="assets/ropa/camisa_negra.png" >
-                <h3>T-SHIRT WITH TAPE DETAILtS</h3>
-                <span class="price">$120</span>
-            </div>
-            <div class="product-item">
-                <img src="assets/ropa/blue_jean.png" >
-                <h3>SKINNY FIT JEANS</h3>
-                <span class="price">$240 </span><span class="old-price">$260</span><span class="discount"> -20% </span>
-            </div>
-            <div class="product-item">
-                    <img src="assets/ropa/camisa_cuadros.png" >
+                <div class="product-item">
+                    <img src="assets/ropa/camisa_negra.png" alt="T-Shirt with Tape Details">
+                    <h3>T-SHIRT WITH TAPE DETAILS</h3>
+                    <img class="stars" src="assets/extras/4.5.png" alt="4.5 stars rating" />
+                    <div class="product-price">
+                        <span class="price">$120</span>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="assets/ropa/blue_jean.png" alt="Skinny Fit Jeans">
+                    <h3>SKINNY FIT JEANS</h3>
+                    <img class="stars" src="assets/extras/3.5.png" alt="3.5 stars rating" />
+                    <div class="product-price">
+                        <span class="price">$240</span>
+                        <span class="old-price">$260</span>
+                        <span class="discount">-20%</span>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="assets/ropa/camisa_cuadros.png" alt="Checkered Shirt">
                     <h3>CHECKERED SHIRT</h3>
-                <span class="price">$180</span>
+                    <img class="stars" src="assets/extras/4.5.png" alt="4.5 stars rating" />
+                    <div class="product-price">
+                        <span class="price">$180</span>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="assets/ropa/camisa_naranja.png" alt="Sleeve Striped T-Shirt">
+                    <h3>SLEEVE STRIPED T-SHIRT</h3>
+                    <img class="stars" src="assets/extras/4.5.png" alt="4.5 stars rating" />
+                    <div class="product-price">
+                        <span class="price">$130</span>
+                        <span class="old-price">$160</span>
+                        <span class="discount">-30%</span>
+                    </div>
+                </div>
             </div>
-            <div class="product-item">
-                <img src="assets/ropa/camisa_naranja.png" >
-                <h3>SLEEVE STRIPED T-SHIRT</h3>
-                <span class="price">$130</span><span class="old-price">$160</span><span class="discount"> -30% </span>
-            </div>
-            <section class="center-section">
+            <div class="center-section">
                 <button class="view-all">View All</button>
-            </section>
-        </div>
-        <h2>top selling</h2>
+            </div>
+
+            <h2>TOP SELLING</h2>
             <div class="product-list">
-            <div class="product-item">
-                <img src="assets/ropa/camisa_verde.png" >
-                <h3>VERTICAL STRIPED SHIRT</h3>
-                <span class="price">$212</span><span class="old-price">$232</span><span class="discount"> -20% </span>
+                <div class="product-item">
+                    <img src="assets/ropa/camisa_verde.png" alt="Vertical Striped Shirt">
+                    <h3>VERTICAL STRIPED SHIRT</h3>
+                    <div class="product-price">
+                        <img class="stars" src="assets/extras/5.png" alt="5 stars rating" />
+                        <span class="price">$212</span>
+                        <span class="old-price">$232</span>
+                        <span class="discount">-20%</span>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="assets/ropa/camisa_naranja_osc.png" alt="Courage Graphic T-Shirt">
+                    <h3>COURAGE GRAPHIC T-SHIRT</h3>
+                    <img class="stars" src="assets/extras/4.png" alt="4 stars rating" />
+                    <div class="product-price">
+                        <span class="price">$145</span>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="assets/ropa/short.png" alt="Loose Fit Bermuda Shorts">
+                    <h3>LOOSE FIT BERMUDA SHORTS</h3>
+                    <img class="stars" src="assets/extras/3.png" alt="3 stars rating" />
+                    <div class="product-price">
+                        <span class="price">$80</span>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img src="assets/ropa/jean.png" alt="Faded Skinny Jeans">
+                    <h3>FADED SKINNY JEANS</h3>
+                    <img class="stars" src="assets/extras/4.5.png" alt="4.5 stars rating" />
+                    <div class="product-price">
+                        <span class="price">$210</span>
+                    </div>
+                </div>
             </div>
-            <div class="product-item">
-                <img src="assets/ropa/camisa_naranja_osc.png" >
-                <h3>COURAGE GRAPHIC T-SHIRT</h3>
-                <span class="price">$145 </span>
+            <div class="center-section">
+                <button class="view-all">View All</button>
             </div>
-            <div class="product-item">
-                <img src="assets/ropa/short.png" >
-                <h3>LOOSE FIT BERMUDA SHORTS</h3>
-                <span class="price">$80</span>
-            </div>
-            <div class="product-item">
-                <img src="assets/ropa/jean.png">
-                <h3>FADED SKINNY JEANS</h3>
-                <span class="price">$210</span>
-            </div>
-        </div>
-        <section class="center-section">
-            <button class="view-all">View All</button>
         </section>
-        </section>
-        <section class="By style">
-            <h2>BROWSE BY dress STYLE</h2>
-            <div class ="row up">
-                
+
+        <!-- Browse by Style Section -->
+        <section class="by-style">
+            <h2>BROWSE BY DRESS STYLE</h2>
+            <div class="style-grid">
+                <div class="style-card">
+                    <img src="assets/ropa/casual.png" alt="Casual Style">
+                </div>
+                <div class="style-card">
+                    <img src="assets/ropa/formal.png" alt="Formal Style">
+                </div>
+            </div>
+            <div class="style-grid bottom">
+                <div class="style-card">
+                    <img src="assets/ropa/party.png" alt="Party Style">
+                </div>
+                <div class="style-card">
+                    <img src="assets/ropa/gym.png" alt="Gym Style">
+                </div>
             </div>
         </section>
-</body>
+        <section class="custome">
+            <h2>OUR HAPPY CUSTOMERS</h2>
+            
+        </section>
+    </body>
 </html>
